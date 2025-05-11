@@ -1,7 +1,7 @@
 package grifts
 
 import (
-	"crud_demo/actions"
+	"buffalo_crud_demo/actions"
 
 	"github.com/gobuffalo/buffalo"
 )

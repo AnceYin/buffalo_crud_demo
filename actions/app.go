@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"sync"
 
-	"crud_demo/locales"
-	"crud_demo/models"
-	"crud_demo/public"
+	"buffalo_crud_demo/locales"
+	"buffalo_crud_demo/models"
+	"buffalo_crud_demo/public"
 
 	"github.com/gobuffalo/buffalo"
 	"github.com/gobuffalo/buffalo-pop/v3/pop/popmw"
@@ -45,7 +45,7 @@ func App() *buffalo.App {
 	appOnce.Do(func() {
 		app = buffalo.New(buffalo.Options{
 			Env:         ENV,
-			SessionName: "_crud_demo_session",
+			SessionName: "_buffalo_crud_demo_session",
 		})
 
 		// Automatically redirect to SSL

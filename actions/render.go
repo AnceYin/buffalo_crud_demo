@@ -1,8 +1,8 @@
 package actions
 
 import (
-	"crud_demo/public"
-	"crud_demo/templates"
+	"buffalo_crud_demo/public"
+	"buffalo_crud_demo/templates"
 
 	"github.com/gobuffalo/buffalo/render"
 )

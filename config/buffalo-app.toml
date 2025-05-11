@@ -1,5 +1,5 @@
-name = "crud_demo"
-bin = "bin\\crud_demo"
+name = "buffalo_crud_demo"
+bin = "bin\\buffalo_crud_demo"
 vcs = "git"
 with_pop = true
 with_sqlite = false

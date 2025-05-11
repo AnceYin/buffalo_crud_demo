@@ -4,8 +4,8 @@ FROM gobuffalo/buffalo:v0.18.14 as builder
 
 ENV GOPROXY http://proxy.golang.org
 
-RUN mkdir -p /src/crud_demo
-WORKDIR /src/crud_demo
+RUN mkdir -p /src/buffalo_crud_demo
+WORKDIR /src/buffalo_crud_demo
 
 # this will cache the npm install step, unless package.json changes
 ADD package.json .

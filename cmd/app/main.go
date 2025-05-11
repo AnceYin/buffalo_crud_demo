@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"crud_demo/actions"
+	"buffalo_crud_demo/actions"
 )
 
 // main is the starting point for your Buffalo application.

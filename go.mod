@@ -1,4 +1,4 @@
-module crud_demo
+module buffalo_crud_demo
 
 go 1.18
 
